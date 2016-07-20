@@ -1,0 +1,29 @@
+<!-- MAIN NAV -->
+<div class="container hidden-print">
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li {% if page.title == 'Home' %} class="active"{% endif %}><a href="/">Home</a></li>
+          <li {% if page.title == 'Syllabus' %} class="active"{% endif %}><a href="/syllabus.html">Syllabus</a></li>
+          <li {% if page.title == 'Schedule' %} class="active"{% endif %}><a href="/schedule.html">Schedule</a></li>
+          <li {% if page.title == 'Assignments' %} class="active"{% endif %}><a href="/assignments.html"> Assignments </a></li>
+          <li {% if page.title == 'LearningOutcomes' %} class="active"{% endif %}><a href="/learningoutcomes.html">Learning Outcomes</a></li>
+
+
+        </ul>
+      </div>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+</div><!-- container -->   
+<!-- ./MAIN NAV -->
